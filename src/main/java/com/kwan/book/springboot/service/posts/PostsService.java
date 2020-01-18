@@ -4,6 +4,7 @@ import com.kwan.book.springboot.web.domain.posts.Posts;
 import com.kwan.book.springboot.web.domain.posts.PostsRepository;
 import com.kwan.book.springboot.web.dto.PostsReponseDto;
 import com.kwan.book.springboot.web.dto.PostsSaveRequestDto;
+import com.kwan.book.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
