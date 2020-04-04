@@ -45,6 +45,6 @@ public class PostsService {
     public void delete(Long id) {
         Posts posts = postsRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("해달사용자가 없습니다. id=" + id));
         postsRepository.delete(posts);
-
     }
+
 }
