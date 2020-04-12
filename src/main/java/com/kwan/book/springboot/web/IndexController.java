@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import javax.servlet.http.HttpSession;
 
-@RequiredArgsConstructor
 @Controller
+@RequiredArgsConstructor
 public class IndexController {
 
     private final PostsService postsService;
@@ -41,3 +41,4 @@ public class IndexController {
     }
 
 }
+
